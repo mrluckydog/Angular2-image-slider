@@ -2,9 +2,9 @@
 This is a component for showing images circularly.
 
 # Parameters
-imgUrls: an array of image urls.
-imgWidth: the width of image.
-imgHeight: the height of image.
+<p>imgUrls: an array of image urls.</p>
+<p>imgWidth: the width of image.</p>
+<p>imgHeight: the height of image.</p>
 
 # Example
 import { Component } from '@angular/core';
