@@ -2,9 +2,9 @@
 This is a component for showing images circularly.
 
 # Parameters
-<strong>imgUrls: an array of image urls.</strong>
-<strong>imgWidth: the width of image.</strong>
-<strong>imgHeight: the height of image.</strong>
+<p><strong>imgUrls:</strong> an array of image urls.</p>
+<p><strong>imgWidth:</strong> the width of image.</strong></p>
+<p><strong>imgHeight:</strong> the height of image.</strong></p>
 
 # Example
 ```typescript
