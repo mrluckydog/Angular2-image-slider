@@ -27,3 +27,5 @@ export class AppComponent {
   }
 }
 ```
+
+![image](https://github.com/mrluckydog/Angular2-image-slider/blob/master/example.gif)
