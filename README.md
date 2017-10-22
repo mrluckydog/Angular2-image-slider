@@ -2,26 +2,28 @@
 This is a component for showing images circularly.
 
 # Parameters
-<p>imgUrls: an array of image urls.</p>
-<p>imgWidth: the width of image.</p>
-<p>imgHeight: the height of image.</p>
+<strong>imgUrls: an array of image urls.</strong>
+<strong>imgWidth: the width of image.</strong>
+<strong>imgHeight: the height of image.</strong>
 
 # Example
-<p>import { Component } from '@angular/core';</p>
+```typescript
+import { Component } from '@angular/core';
 
-<p>@Component({</p>
-<p>  selector: 'app-root',</p>
-<p>  template: `<img-slider [imgUrls]=imgUrls [imgWidth]=720 [imgHeight]=300></img-slider>`,</p>
-<p>})</p>
-<p>export class AppComponent {</p>
-<p>  imgUrls: string[];</p>
-<p>  baseImgUrl: string = "../assets/image/";</p>
+@Component({
+  selector: 'app-root',
+  template: `<img-slider [imgUrls]=imgUrls [imgWidth]=720 [imgHeight]=300></img-slider>`,
+})
+export class AppComponent {
+  imgUrls: string[];
+  baseImgUrl: string = "../assets/image/";
 
-<p>  constructor() {</p>
-<p>    this.imgUrls = [this.baseImgUrl + "img1.jpg",</p>
-<p>      this.baseImgUrl + "img2.jpg",</p>
-<p>      this.baseImgUrl + "img3.jpg",</p>
-<p>      this.baseImgUrl + "img4.jpg"</p>
-<p>    ];</p>
-<p>  }</p>
-<p>}</p>
+  constructor() {
+    this.imgUrls = [this.baseImgUrl + "img1.jpg",
+      this.baseImgUrl + "img2.jpg",
+      this.baseImgUrl + "img3.jpg",
+      this.baseImgUrl + "img4.jpg"
+    ];
+  }
+}
+```
