@@ -14,8 +14,8 @@ import { Component, Input, OnInit } from '@angular/core';
             <div class="slider" [ngStyle]="{'width': imgContainerWidth + 'px', 'height': imgHeight + 'px'}">
                 <img *ngFor="let imgUrl of imgUrls; let i=index;" src={{imgUrl}} id={{i}} [ngStyle]=imgSlideStyle>
             </div>
-            <img (click)="prevImg()" style="position: absolute; top: 50%; left: 20px; margin-top: -10px; cursor: pointer;" src="../../assets/image/arrow-left.png">
-            <img (click)="nextImg()" style="position: absolute; top: 50%; right: 20px; margin-top: -10px; cursor: pointer;" src="../../assets/image/arrow-right.png">
+            <img (click)="prevImg()" style="position: absolute; top: 50%; left: 20px; margin-top: -10px; cursor: pointer;" src="assets/image/arrow-left.png">
+            <img (click)="nextImg()" style="position: absolute; top: 50%; right: 20px; margin-top: -10px; cursor: pointer;" src="assets/image/arrow-right.png">
         </div>
     `
 })
