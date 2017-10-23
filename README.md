@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   imgUrls: string[];
-  baseImgUrl: string = "../assets/image/";
+  baseImgUrl: string = "assets/image/";
 
   constructor() {
     this.imgUrls = [this.baseImgUrl + "img1.jpg",
